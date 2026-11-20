@@ -139,6 +139,8 @@ def compute_accuracy(pred_labels, true_labels):
 
 
 def main():
+    # Wide layout so the results table shows every column without scrolling.
+    st.set_page_config(page_title="ISOM5160 HW2 - SMS Spam Alert", layout="wide")
     st.title("ISOM5160")
     st.write("Homework 2 — SMS Spam / Smishing Alert")
     # Show Student ID and COURSE_SECRET prominently on the page.
